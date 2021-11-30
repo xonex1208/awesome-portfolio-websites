@@ -131,9 +131,8 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Contacto</h6>
               </div>
-                <form>
                   <form action="https://formcarry.com/s/H8WWMeHKS79" method="POST" accept-charset="UTF-8" >
-                  <input type="text" name="name" placeholder="Nombre" required/>
+                  <input type="text" name="firstName" placeholder="Nombre" required/>
                   <input type="email" name="email" placeholder="Email"  required/>
                   <textarea name="anotherInput" placeholder="Mensaje" required></textarea>
                   <input type="hidden" name="_gotcha">
